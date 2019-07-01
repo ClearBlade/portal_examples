@@ -1,0 +1,32 @@
+{
+    "items": [
+        {
+            "item_id": "3198a36c-2789-415c-8f39-0a79dfb09b67",
+            "num_test": 0,
+            "test": "Joe"
+        },
+        {
+            "item_id": "89cb1159-88fd-4b85-8e34-f01e74c0ad07",
+            "num_test": 0,
+            "test": "Jack"
+        }
+    ],
+    "name": "CRUD_Grid_Example",
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "test",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "num_test",
+            "ColumnType": "int",
+            "PK": false
+        }
+    ]
+}
